@@ -20,6 +20,10 @@
 		C5A6658429C55A4200124643 /* MainStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658329C55A4200124643 /* MainStruct.swift */; };
 		C5A6658629C55CD100124643 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658529C55CD100124643 /* BaseViewController.swift */; };
 		C5A6658829C55D0800124643 /* BaseControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658729C55D0800124643 /* BaseControllerAction.swift */; };
+		FA4EE3CD29E8F2F000165DD6 /* OpenXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE3CC29E8F2F000165DD6 /* OpenXIB.swift */; };
+		FA4EE3CF29E8F3B200165DD6 /* openXIB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE3CE29E8F3B200165DD6 /* openXIB.storyboard */; };
+		FA4EE3D229E8F5CB00165DD6 /* XibTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */; };
+		FA4EE3D429E8F5DE00165DD6 /* XibTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		C5A6658329C55A4200124643 /* MainStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStruct.swift; sourceTree = "<group>"; };
 		C5A6658529C55CD100124643 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C5A6658729C55D0800124643 /* BaseControllerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseControllerAction.swift; sourceTree = "<group>"; };
+		FA4EE3CC29E8F2F000165DD6 /* OpenXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenXIB.swift; sourceTree = "<group>"; };
+		FA4EE3CE29E8F3B200165DD6 /* openXIB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = openXIB.storyboard; sourceTree = "<group>"; };
+		FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTable.swift; sourceTree = "<group>"; };
+		FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTable.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,8 @@
 				FA4EE3C829E8EE6A00165DD6 /* Delegate */,
 				C5A6657A29C5599900124643 /* Base */,
 				C5A6657929C5598D00124643 /* Main */,
+				FA4EE3CB29E8F2A100165DD6 /* OpenXIB */,
+				FA4EE3D029E8F59200165DD6 /* XIBTable */,
 				C50BD7EF29B431100074BBB4 /* Assets.xcassets */,
 				C50BD7F129B431100074BBB4 /* LaunchScreen.storyboard */,
 				C50BD7F429B431100074BBB4 /* Info.plist */,
@@ -193,6 +203,24 @@
 				C50BD7EC29B4310E0074BBB4 /* Main.storyboard */,
 			);
 			path = Storeboard;
+			sourceTree = "<group>";
+		};
+		FA4EE3CB29E8F2A100165DD6 /* OpenXIB */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EE3CC29E8F2F000165DD6 /* OpenXIB.swift */,
+				FA4EE3CE29E8F3B200165DD6 /* openXIB.storyboard */,
+			);
+			path = OpenXIB;
+			sourceTree = "<group>";
+		};
+		FA4EE3D029E8F59200165DD6 /* XIBTable */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */,
+				FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */,
+			);
+			path = XIBTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +329,9 @@
 			files = (
 				C50BD7F329B431100074BBB4 /* LaunchScreen.storyboard in Resources */,
 				C50BD7F029B431100074BBB4 /* Assets.xcassets in Resources */,
+				FA4EE3CF29E8F3B200165DD6 /* openXIB.storyboard in Resources */,
 				C50BD7EE29B4310E0074BBB4 /* Main.storyboard in Resources */,
+				FA4EE3D429E8F5DE00165DD6 /* XibTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +358,11 @@
 			files = (
 				C5A6658429C55A4200124643 /* MainStruct.swift in Sources */,
 				C5A6658829C55D0800124643 /* BaseControllerAction.swift in Sources */,
+				FA4EE3D229E8F5CB00165DD6 /* XibTable.swift in Sources */,
 				C50BD7EB29B4310E0074BBB4 /* Main.swift in Sources */,
 				C50BD7E729B4310E0074BBB4 /* AppDelegate.swift in Sources */,
 				C50BD7E929B4310E0074BBB4 /* SceneDelegate.swift in Sources */,
+				FA4EE3CD29E8F2F000165DD6 /* OpenXIB.swift in Sources */,
 				C5A6658629C55CD100124643 /* BaseViewController.swift in Sources */,
 				C5A6658029C559D200124643 /* MainViewModel.swift in Sources */,
 			);

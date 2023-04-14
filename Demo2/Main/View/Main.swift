@@ -67,16 +67,19 @@ extension Main {
         UpdateUI();
     }
     
-    @IBAction func Action_SB1 (_sender:UIButton) {
+    @IBAction func Action_SB (_sender:UIButton) {
+        //使用第一種StoreBoard切換
         printLog(LogString: "Action_SB1");
-    }
     
-    @IBAction func Action_SB2 (_sender:UIButton) {
-        printLog(LogString: "Action_SB2");
-    }
-    
-    @IBAction func Action_XIB (_sender:UIButton) {
-        printLog(LogString: "Action_XIB");
+        let mainStoryboard = UIStoryboard(name: "openXIB", bundle: Bundle.main)
+        guard let vc = mainStoryboard.instantiateViewController(withIdentifier: "openxib") as? OpenXIB else {
+            print("err")
+            return
+        }
+        vc.xibTitle = "xib"
+        //self.navigationController?.pushViewController(vc, animated: true)
+        self.present(vc, animated: true, completion: nil);
+
     }
 }
 
