@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseController: UIViewController {
-
+    let TAG :String = "Alex";
     override func viewDidLoad() {
         super.viewDidLoad()
     }

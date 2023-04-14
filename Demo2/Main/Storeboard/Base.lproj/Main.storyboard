@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W6u-LO-Ui0">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <rect key="frame" x="20" y="48" width="374" height="814"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="T2m-9U-klA">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="814"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSf-b6-inN">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="41.5"/>
@@ -78,13 +78,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZ3-Lm-Uvb">
-                                                <rect key="frame" x="0.0" y="124.5" width="374" height="41"/>
+                                                <rect key="frame" x="0.0" y="124.5" width="374" height="44.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQU-PG-JIY">
-                                                        <rect key="frame" x="0.0" y="10" width="374" height="31"/>
+                                                        <rect key="frame" x="0.0" y="10" width="374" height="34.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2Q-Jv-epa">
-                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="34.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="設定資料"/>
                                                                 <connections>
@@ -92,7 +92,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ya9-hr-JAO">
-                                                                <rect key="frame" x="112" y="0.0" width="112.5" height="31"/>
+                                                                <rect key="frame" x="112" y="0.0" width="112.5" height="34.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="還原資料"/>
                                                                 <connections>
@@ -100,7 +100,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-9x-GWd">
-                                                                <rect key="frame" x="224.5" y="0.0" width="149.5" height="31"/>
+                                                                <rect key="frame" x="224.5" y="0.0" width="149.5" height="34.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="BasePrint"/>
                                                                 <connections>
@@ -122,8 +122,53 @@
                                                     <constraint firstItem="KQU-PG-JIY" firstAttribute="leading" secondItem="FZ3-Lm-Uvb" secondAttribute="leading" id="tKR-t1-3Nf"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MvH-7L-8hs">
+                                                <rect key="frame" x="0.0" y="169" width="374" height="84.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7zE-5k-2hF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="84.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfV-RN-3wg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="84.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="SB1"/>
+                                                                <connections>
+                                                                    <action selector="SetActionDataWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FcJ-4Y-hsQ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBu-zN-ks1">
+                                                                <rect key="frame" x="112" y="0.0" width="112.5" height="84.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="SB2"/>
+                                                                <connections>
+                                                                    <action selector="ResetActionDataWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CA9-wC-J0l"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCK-PC-zfq">
+                                                                <rect key="frame" x="224.5" y="0.0" width="149.5" height="84.5"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="XIB"/>
+                                                                <connections>
+                                                                    <action selector="ConfirmWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4R-kf-gut"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="qBu-zN-ks1" firstAttribute="width" secondItem="7zE-5k-2hF" secondAttribute="width" multiplier="0.3" id="3u5-5U-Kc1"/>
+                                                            <constraint firstItem="cfV-RN-3wg" firstAttribute="width" secondItem="7zE-5k-2hF" secondAttribute="width" multiplier="0.3" id="6h9-Jd-vVJ"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="7zE-5k-2hF" secondAttribute="trailing" id="0Tb-jJ-sla"/>
+                                                    <constraint firstItem="7zE-5k-2hF" firstAttribute="leading" secondItem="MvH-7L-8hs" secondAttribute="leading" id="BtQ-9M-j8q"/>
+                                                    <constraint firstItem="7zE-5k-2hF" firstAttribute="top" secondItem="MvH-7L-8hs" secondAttribute="top" id="kMA-Ez-Q5M"/>
+                                                    <constraint firstAttribute="bottom" secondItem="7zE-5k-2hF" secondAttribute="bottom" id="rUt-4V-cFc"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8b-DZ-CMf">
-                                                <rect key="frame" x="0.0" y="165.5" width="374" height="652.5"/>
+                                                <rect key="frame" x="0.0" y="253.5" width="374" height="560.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                         </subviews>

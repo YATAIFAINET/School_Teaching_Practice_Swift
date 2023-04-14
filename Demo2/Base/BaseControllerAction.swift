@@ -11,7 +11,7 @@ import UIKit
 /// 函式庫
 extension BaseController {
     func printLog(LogString:String) -> Void {
-        print("Alex:"+LogString)
+        print(TAG+LogString)
     }
 }
 

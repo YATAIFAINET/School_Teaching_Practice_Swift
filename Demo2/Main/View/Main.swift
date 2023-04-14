@@ -66,6 +66,18 @@ extension Main {
         ResetData();
         UpdateUI();
     }
+    
+    @IBAction func Action_SB1 (_sender:UIButton) {
+        printLog(LogString: "Action_SB1");
+    }
+    
+    @IBAction func Action_SB2 (_sender:UIButton) {
+        printLog(LogString: "Action_SB2");
+    }
+    
+    @IBAction func Action_XIB (_sender:UIButton) {
+        printLog(LogString: "Action_XIB");
+    }
 }
 
 
