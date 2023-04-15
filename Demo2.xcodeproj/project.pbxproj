@@ -107,13 +107,9 @@
 		C50BD7E529B4310E0074BBB4 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
-				C50BD7E629B4310E0074BBB4 /* AppDelegate.swift */,
-				C5A6657A29C5599900124643 /* Base */,
-				C5A6657929C5598D00124643 /* Main */,
-				C50BD7E829B4310E0074BBB4 /* SceneDelegate.swift */,
-				C5A6658929C56CF000124643 /* Login */,
-				C5A6658B29C56D1300124643 /* MainOption */,
-				C50BD7EC29B4310E0074BBB4 /* Main.storyboard */,
+				C5BAA10029EA44030086D561 /* Util */,
+				C5BAA0FF29EA43F90086D561 /* Screen */,
+				C5BAA0FD29EA43860086D561 /* delegate */,
 				C50BD7EF29B431100074BBB4 /* Assets.xcassets */,
 				C50BD7F129B431100074BBB4 /* LaunchScreen.storyboard */,
 				C50BD7F429B431100074BBB4 /* Info.plist */,
@@ -141,20 +137,12 @@
 		C5A6657929C5598D00124643 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C5BAA0FE29EA43E10086D561 /* Storeboard */,
 				C5A6657D29C559BC00124643 /* Model */,
 				C5A6657C29C559B500124643 /* ViewModel */,
 				C5A6657B29C559AF00124643 /* View */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		C5A6657A29C5599900124643 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6658529C55CD100124643 /* BaseViewController.swift */,
-				C5A6658729C55D0800124643 /* BaseControllerAction.swift */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		C5A6657B29C559AF00124643 /* View */ = {
@@ -181,90 +169,70 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C5A6658929C56CF000124643 /* Login */ = {
+		C5BAA0FD29EA43860086D561 /* delegate */ = {
 			isa = PBXGroup;
 			children = (
-				C5A6658D29C56D2C00124643 /* Forget */,
-				C5A6658C29C56D2500124643 /* Register */,
+				C50BD7E829B4310E0074BBB4 /* SceneDelegate.swift */,
+				C50BD7E629B4310E0074BBB4 /* AppDelegate.swift */,
 			);
-			path = Login;
+			path = delegate;
 			sourceTree = "<group>";
 		};
-		C5A6658B29C56D1300124643 /* MainOption */ = {
+		C5BAA0FE29EA43E10086D561 /* Storeboard */ = {
 			isa = PBXGroup;
 			children = (
-				C5A6659029C56D3E00124643 /* Mall */,
-				C5A6658F29C56D3900124643 /* Store */,
-				C5A6658E29C56D3300124643 /* Annouctment */,
+				C50BD7EC29B4310E0074BBB4 /* Main.storyboard */,
 			);
-			path = MainOption;
+			path = Storeboard;
 			sourceTree = "<group>";
 		};
-		C5A6658C29C56D2500124643 /* Register */ = {
+		C5BAA0FF29EA43F90086D561 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				C5A6657929C5598D00124643 /* Main */,
 			);
-			path = Register;
+			path = Screen;
 			sourceTree = "<group>";
 		};
-		C5A6658D29C56D2C00124643 /* Forget */ = {
+		C5BAA10029EA44030086D561 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				C5A6659429C56D5A00124643 /* Viewmodel */,
-				C5A6659329C56D5700124643 /* View */,
+				C5BAA10429EA443B0086D561 /* UIUtil */,
 			);
-			path = Forget;
+			path = Util;
 			sourceTree = "<group>";
 		};
-		C5A6658E29C56D3300124643 /* Annouctment */ = {
+		C5BAA10129EA440D0086D561 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
+				C5BAA10329EA44280086D561 /* Action */,
+				C5BAA10229EA44240086D561 /* View */,
 			);
-			path = Annouctment;
+			path = BaseController;
 			sourceTree = "<group>";
 		};
-		C5A6658F29C56D3900124643 /* Store */ = {
+		C5BAA10229EA44240086D561 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
-		C5A6659029C56D3E00124643 /* Mall */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6659229C56D4B00124643 /* Detail */,
-				C5A6659129C56D4500124643 /* List */,
-			);
-			path = Mall;
-			sourceTree = "<group>";
-		};
-		C5A6659129C56D4500124643 /* List */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		C5A6659229C56D4B00124643 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		C5A6659329C56D5700124643 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				C5A6658529C55CD100124643 /* BaseViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C5A6659429C56D5A00124643 /* Viewmodel */ = {
+		C5BAA10329EA44280086D561 /* Action */ = {
 			isa = PBXGroup;
 			children = (
+				C5A6658729C55D0800124643 /* BaseControllerAction.swift */,
 			);
-			path = Viewmodel;
+			path = Action;
+			sourceTree = "<group>";
+		};
+		C5BAA10429EA443B0086D561 /* UIUtil */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAA10129EA440D0086D561 /* BaseController */,
+			);
+			path = UIUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
