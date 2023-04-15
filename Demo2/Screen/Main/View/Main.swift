@@ -66,6 +66,26 @@ extension Main {
         ResetData();
         UpdateUI();
     }
+
+    @IBAction func StoreBoardAction (_sender:UIButton) {
+        printLog(LogString: "StoreBoardAction")
+
+        let sb = UIStoryboard(name: "sbController", bundle: Bundle.main)
+
+        //if else
+        guard let vc = sb.instantiateViewController(withIdentifier: "SbController") as? SBController else {
+            print("err")
+            return
+        }
+        vc.Data = "AlexSend"
+        self.present(vc, animated: true, completion: nil);
+    }
+
+    @IBAction func XIBAction (_sender:UIButton) {
+        printLog(LogString: "XIBAction")
+        let vc:XibVC = .init()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
 

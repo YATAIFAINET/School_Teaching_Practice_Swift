@@ -20,6 +20,10 @@
 		C5A6658429C55A4200124643 /* MainStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658329C55A4200124643 /* MainStruct.swift */; };
 		C5A6658629C55CD100124643 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658529C55CD100124643 /* BaseViewController.swift */; };
 		C5A6658829C55D0800124643 /* BaseControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A6658729C55D0800124643 /* BaseControllerAction.swift */; };
+		C5BAA10929EA48000086D561 /* SBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA10829EA48000086D561 /* SBController.swift */; };
+		C5BAA10B29EA481E0086D561 /* sbController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BAA10A29EA481E0086D561 /* sbController.storyboard */; };
+		C5BAA10D29EA4B870086D561 /* XibVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BAA10C29EA4B870086D561 /* XibVC.swift */; };
+		C5BAA10F29EA4B970086D561 /* XibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5BAA10E29EA4B970086D561 /* XibVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		C5A6658329C55A4200124643 /* MainStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStruct.swift; sourceTree = "<group>"; };
 		C5A6658529C55CD100124643 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C5A6658729C55D0800124643 /* BaseControllerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseControllerAction.swift; sourceTree = "<group>"; };
+		C5BAA10829EA48000086D561 /* SBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBController.swift; sourceTree = "<group>"; };
+		C5BAA10A29EA481E0086D561 /* sbController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sbController.storyboard; sourceTree = "<group>"; };
+		C5BAA10C29EA4B870086D561 /* XibVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibVC.swift; sourceTree = "<group>"; };
+		C5BAA10E29EA4B970086D561 /* XibVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +197,8 @@
 		C5BAA0FF29EA43F90086D561 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				C5BAA10629EA47CE0086D561 /* ActionSBScreen */,
+				C5BAA10729EA47E70086D561 /* ActionXIBScreen */,
 				C5A6657929C5598D00124643 /* Main */,
 			);
 			path = Screen;
@@ -233,6 +243,24 @@
 				C5BAA10129EA440D0086D561 /* BaseController */,
 			);
 			path = UIUtil;
+			sourceTree = "<group>";
+		};
+		C5BAA10629EA47CE0086D561 /* ActionSBScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAA10829EA48000086D561 /* SBController.swift */,
+				C5BAA10A29EA481E0086D561 /* sbController.storyboard */,
+			);
+			path = ActionSBScreen;
+			sourceTree = "<group>";
+		};
+		C5BAA10729EA47E70086D561 /* ActionXIBScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAA10C29EA4B870086D561 /* XibVC.swift */,
+				C5BAA10E29EA4B970086D561 /* XibVC.xib */,
+			);
+			path = ActionXIBScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,7 +369,9 @@
 			files = (
 				C50BD7F329B431100074BBB4 /* LaunchScreen.storyboard in Resources */,
 				C50BD7F029B431100074BBB4 /* Assets.xcassets in Resources */,
+				C5BAA10F29EA4B970086D561 /* XibVC.xib in Resources */,
 				C50BD7EE29B4310E0074BBB4 /* Main.storyboard in Resources */,
+				C5BAA10B29EA481E0086D561 /* sbController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +402,9 @@
 				C50BD7E729B4310E0074BBB4 /* AppDelegate.swift in Sources */,
 				C50BD7E929B4310E0074BBB4 /* SceneDelegate.swift in Sources */,
 				C5A6658629C55CD100124643 /* BaseViewController.swift in Sources */,
+				C5BAA10929EA48000086D561 /* SBController.swift in Sources */,
 				C5A6658029C559D200124643 /* MainViewModel.swift in Sources */,
+				C5BAA10D29EA4B870086D561 /* XibVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -122,8 +122,44 @@
                                                     <constraint firstItem="KQU-PG-JIY" firstAttribute="leading" secondItem="FZ3-Lm-Uvb" secondAttribute="leading" id="tKR-t1-3Nf"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Sg-fn-fpf">
+                                                <rect key="frame" x="0.0" y="165.5" width="374" height="131"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lyc-rA-Bdm">
+                                                        <rect key="frame" x="0.0" y="100" width="374" height="31"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB5-GK-di9">
+                                                                <rect key="frame" x="0.0" y="0.0" width="187" height="31"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="SBAction"/>
+                                                                <connections>
+                                                                    <action selector="StoreBoardActionWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKF-Kr-t0G"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtO-3Z-swj">
+                                                                <rect key="frame" x="187" y="0.0" width="187" height="31"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="XivAction"/>
+                                                                <connections>
+                                                                    <action selector="XIBActionWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cWm-Cc-lHA"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="jB5-GK-di9" firstAttribute="width" secondItem="Lyc-rA-Bdm" secondAttribute="width" multiplier="0.5" id="k0v-81-uqM"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Lyc-rA-Bdm" secondAttribute="bottom" id="Ib1-sf-j5c"/>
+                                                    <constraint firstItem="Lyc-rA-Bdm" firstAttribute="leading" secondItem="2Sg-fn-fpf" secondAttribute="leading" id="fMR-jz-j4h"/>
+                                                    <constraint firstItem="Lyc-rA-Bdm" firstAttribute="top" secondItem="2Sg-fn-fpf" secondAttribute="top" constant="100" id="hlP-S5-aIr"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Lyc-rA-Bdm" secondAttribute="trailing" id="yxP-4n-C1A"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8b-DZ-CMf">
-                                                <rect key="frame" x="0.0" y="165.5" width="374" height="652.5"/>
+                                                <rect key="frame" x="0.0" y="296.5" width="374" height="521.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                         </subviews>
@@ -156,6 +192,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-46.376811594202906" y="120.53571428571428"/>
+        </scene>
+        <!--SbController-->
+        <scene sceneID="2Up-5R-0ir">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ciC-gH-6dw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="SbController" storyboardName="sbController" referencedIdentifier="SbController" id="ubf-ED-o2j" sceneMemberID="viewController"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="-14"/>
         </scene>
     </scenes>
     <resources>
