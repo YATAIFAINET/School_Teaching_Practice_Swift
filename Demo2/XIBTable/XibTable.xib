@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibTable" customModule="Demo2" customModuleProvider="target">
             <connections>
+                <outlet property="tablelist" destination="aRr-H8-4NZ" id="sUm-Ht-isZ"/>
                 <outlet property="view" destination="s4c-vG-HTw" id="nDm-1T-tmf"/>
             </connections>
         </placeholder>
@@ -18,14 +19,30 @@
         <view contentMode="scaleToFill" id="s4c-vG-HTw">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-H8-4NZ">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="H5U-J4-OQj"/>
+                        <outlet property="delegate" destination="-1" id="2L4-8f-xvd"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="PCr-UO-jbA"/>
-            <color key="backgroundColor" systemColor="systemPinkColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aRr-H8-4NZ" firstAttribute="leading" secondItem="PCr-UO-jbA" secondAttribute="leading" id="EWq-M7-Xdj"/>
+                <constraint firstItem="PCr-UO-jbA" firstAttribute="bottom" secondItem="aRr-H8-4NZ" secondAttribute="bottom" id="I6w-7Y-soB"/>
+                <constraint firstItem="aRr-H8-4NZ" firstAttribute="top" secondItem="PCr-UO-jbA" secondAttribute="top" id="Swt-fE-3rd"/>
+                <constraint firstItem="PCr-UO-jbA" firstAttribute="trailing" secondItem="aRr-H8-4NZ" secondAttribute="trailing" id="mh0-jD-mhg"/>
+            </constraints>
             <point key="canvasLocation" x="3" y="79"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -25,6 +25,9 @@
 		FA4EE3CF29E8F3B200165DD6 /* openXIB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE3CE29E8F3B200165DD6 /* openXIB.storyboard */; };
 		FA4EE3D229E8F5CB00165DD6 /* XibTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */; };
 		FA4EE3D429E8F5DE00165DD6 /* XibTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */; };
+		FA6CA83B2A04A5A1008643F7 /* xibmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6CA83A2A04A5A1008643F7 /* xibmodel.swift */; };
+		FA6CA83E2A04A5D9008643F7 /* xibcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6CA83D2A04A5D9008643F7 /* xibcell.swift */; };
+		FA6CA8402A04A5E4008643F7 /* xibcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6CA83F2A04A5E4008643F7 /* xibcell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		FA4EE3CE29E8F3B200165DD6 /* openXIB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = openXIB.storyboard; sourceTree = "<group>"; };
 		FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTable.swift; sourceTree = "<group>"; };
 		FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTable.xib; sourceTree = "<group>"; };
+		FA6CA83A2A04A5A1008643F7 /* xibmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xibmodel.swift; sourceTree = "<group>"; };
+		FA6CA83D2A04A5D9008643F7 /* xibcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xibcell.swift; sourceTree = "<group>"; };
+		FA6CA83F2A04A5E4008643F7 /* xibcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibcell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				F29A3AFA7CB14016D59D973F /* Pods-Demo2.debug.xcconfig */,
 				1822EBCB8FD1DE53EDF2A131 /* Pods-Demo2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -242,10 +247,29 @@
 		FA4EE3D029E8F59200165DD6 /* XIBTable */ = {
 			isa = PBXGroup;
 			children = (
+				FA6CA83C2A04A5CF008643F7 /* cell */,
+				FA6CA8372A04A461008643F7 /* model */,
 				FA4EE3D129E8F5CB00165DD6 /* XibTable.swift */,
 				FA4EE3D329E8F5DE00165DD6 /* XibTable.xib */,
 			);
 			path = XIBTable;
+			sourceTree = "<group>";
+		};
+		FA6CA8372A04A461008643F7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA6CA83A2A04A5A1008643F7 /* xibmodel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA6CA83C2A04A5CF008643F7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA6CA83D2A04A5D9008643F7 /* xibcell.swift */,
+				FA6CA83F2A04A5E4008643F7 /* xibcell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +381,7 @@
 				C50BD7F329B431100074BBB4 /* LaunchScreen.storyboard in Resources */,
 				C50BD7F029B431100074BBB4 /* Assets.xcassets in Resources */,
 				FA4EE3CF29E8F3B200165DD6 /* openXIB.storyboard in Resources */,
+				FA6CA8402A04A5E4008643F7 /* xibcell.xib in Resources */,
 				C50BD7EE29B4310E0074BBB4 /* Main.storyboard in Resources */,
 				FA4EE3D429E8F5DE00165DD6 /* XibTable.xib in Resources */,
 			);
@@ -429,9 +454,11 @@
 				C5A6658829C55D0800124643 /* BaseControllerAction.swift in Sources */,
 				FA4EE3D229E8F5CB00165DD6 /* XibTable.swift in Sources */,
 				C50BD7EB29B4310E0074BBB4 /* Main.swift in Sources */,
+				FA6CA83E2A04A5D9008643F7 /* xibcell.swift in Sources */,
 				C50BD7E729B4310E0074BBB4 /* AppDelegate.swift in Sources */,
 				C50BD7E929B4310E0074BBB4 /* SceneDelegate.swift in Sources */,
 				FA4EE3CD29E8F2F000165DD6 /* OpenXIB.swift in Sources */,
+				FA6CA83B2A04A5A1008643F7 /* xibmodel.swift in Sources */,
 				C5A6658629C55CD100124643 /* BaseViewController.swift in Sources */,
 				C5A6658029C559D200124643 /* MainViewModel.swift in Sources */,
 			);
