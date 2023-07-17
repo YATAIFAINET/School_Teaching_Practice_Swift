@@ -111,8 +111,6 @@
 				C5A6657A29C5599900124643 /* Base */,
 				C5A6657929C5598D00124643 /* Main */,
 				C50BD7E829B4310E0074BBB4 /* SceneDelegate.swift */,
-				C5A6658929C56CF000124643 /* Login */,
-				C5A6658B29C56D1300124643 /* MainOption */,
 				C50BD7EC29B4310E0074BBB4 /* Main.storyboard */,
 				C50BD7EF29B431100074BBB4 /* Assets.xcassets */,
 				C50BD7F129B431100074BBB4 /* LaunchScreen.storyboard */,
@@ -179,92 +177,6 @@
 				C5A6658329C55A4200124643 /* MainStruct.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C5A6658929C56CF000124643 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6658D29C56D2C00124643 /* Forget */,
-				C5A6658C29C56D2500124643 /* Register */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		C5A6658B29C56D1300124643 /* MainOption */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6659029C56D3E00124643 /* Mall */,
-				C5A6658F29C56D3900124643 /* Store */,
-				C5A6658E29C56D3300124643 /* Annouctment */,
-			);
-			path = MainOption;
-			sourceTree = "<group>";
-		};
-		C5A6658C29C56D2500124643 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		C5A6658D29C56D2C00124643 /* Forget */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6659429C56D5A00124643 /* Viewmodel */,
-				C5A6659329C56D5700124643 /* View */,
-			);
-			path = Forget;
-			sourceTree = "<group>";
-		};
-		C5A6658E29C56D3300124643 /* Annouctment */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Annouctment;
-			sourceTree = "<group>";
-		};
-		C5A6658F29C56D3900124643 /* Store */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
-		C5A6659029C56D3E00124643 /* Mall */ = {
-			isa = PBXGroup;
-			children = (
-				C5A6659229C56D4B00124643 /* Detail */,
-				C5A6659129C56D4500124643 /* List */,
-			);
-			path = Mall;
-			sourceTree = "<group>";
-		};
-		C5A6659129C56D4500124643 /* List */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		C5A6659229C56D4B00124643 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		C5A6659329C56D5700124643 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C5A6659429C56D5A00124643 /* Viewmodel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
